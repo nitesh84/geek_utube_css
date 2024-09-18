@@ -7,7 +7,7 @@
 }
 
 .material-symbols-outlined{
-    color: grey;
+    color: rgb(96,96,96);
      font-variation-settings: "FILL" 1, "wght" 200, "GRAD" 0, "opsz" 24;
 }
 
@@ -50,14 +50,21 @@ form{
 
 .header_search form input{
     width: 80%;
-    height: 30px;
+    height: 40px;
     /* border-radius: 5px; */
     padding: 5px;
+    border: 1px solid rgba(96, 96, 96,0.2);
+    
 }
 
 .header_search form i{
-    border: 1px solid black;
-    height: 30px;
+    border: 1px solid rgba(96, 96, 96,0.2);
+    height: 40px;
+    background-color: rgba(96, 96, 96,0.1);
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header_right{
@@ -89,19 +96,22 @@ main{
     /* justify-content: space-evenly; */
     gap: 10px;
     align-items: center;
-    margin: 20px 20px;
+    padding: 20px 20px;
 }
 
 .sidebar ul li:hover{
     background-color: rgba(1, 1,1,0.2);
-    width: 90%;
+    width: 100%;
 }
 
 
-/* 
+
 hr{
 width: 100%;
-} */
+height: 1px;
+background-color: #e5e5e5;
+border: none;
+}
 
 .sidebar{
     margin-top: 80px;
@@ -128,6 +138,7 @@ width: 100%;
 .card img{
     height: 170px;
     width: 100%;
+    margin: 0px 10px;
 }
 
 .title_block{
@@ -136,5 +147,9 @@ width: 100%;
 .title_block img{
     height: 40px;
     width: 40px;
+}
+
+.title_block p:nth-child(1){
+    font-weight: 700;
 }
 
